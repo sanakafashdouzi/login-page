@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d780e3fd;
+}
+
+.login-div {
+   position: absolute;
+}
+
+
+.logo {
+    background: url();
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: -180px auto 40px auto;
+    border: 3px solid white;
+}
+
+.sponsor {
+   background-color: #fff; 
+   width:1100px;
+   height: 120px;
+   border-bottom-left-radius: 40px;
+   border-bottom-right-radius: 40px;
+   margin-top: -620px;
+}
+.sponsor h2 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.sponsor h4{
+    text-align:right;
+    margin-right: 20px;
+}
+.sponsor span a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #3f3c3c;
+}
+.fields {
+ position: absolute;
+ top: -80px;
+ margin-top: 10px;
+}
+
+.fields label{
+    font-size: 17px;
+   position: relative;
+   right: -190px;
+   bottom: -20px;
+}
+.fields input {
+  border: none; 
+  outline: none;
+  font-size: 18px;
+  margin-bottom:7px;
+  color: #141414;
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  position: relative;
+  right: 60px;
+  text-align: right;
+}
+
+.kapcha {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  
+}
+.kapcha .code{
+    width: 50%;
+    border-radius: 1px;
+    height: 40px;
+    text-align: center;
+    margin-left: 90px;
+}
+
+.signin-button{
+    background-color: #0fe20f;
+    border: none;
+    height: 30px;
+    width: 40%;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.signin-button:hover {
+    color: black;
+    background-color: #0daa0d;
+}
+footer {
+    background-color: #fff; 
+    height: 120px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    position: absolute;
+}
+.footer {
+  position: relative;
+  bottom: -320px;
+  right: 185px;
+ width: 330%;
+
+}
+.footer ul{
+    list-style: none;
+}
+.footer .first{
+    position: relative;
+    right: -360px;
+    top: 20px;
+}
+.footer .second{
+    position: relative;
+    left:100px;
+    top: -70px;
+}
+.footer li {
+    padding: 10px;
+}
+@media(max-width:1600px) and (min-width:1000px) {
+    .footer {
+       width: 690%;
+       right: 470px;
+      }
+      .footer .first{
+        right: -860px;
+    }
+    .footer .second{
+        left:300px;
+    }
+}
+@media(max-width:1000px) and (min-width:700px) {
+    .footer {
+       width: 600%;
+       right: 400px;
+      }
+      .footer .first{
+        right: -700px;
+    }
+    .footer .second{
+        left:200px;
+    }
+}
+@media(max-width:700px) and (min-width:600px) {
+    .footer {
+       width: 455%;
+       right: 280px;
+      }
+      .footer .first{
+        right: -500px;
+    }
+    .footer .second{
+        left:160px;
+    }
+}
